@@ -31,8 +31,9 @@ main{
     padding: 10px;
     background-color:#E02C6D; 
     margin-top: 27px;
-
+    color: white;
 }
+
 
 .fa-arrow-right{
     margin:0px 8px;
@@ -100,8 +101,68 @@ box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
 
 
 /*------------------------
-player list part start 
+player list part end 
 -----------------------*/
+
+
+
+/*------------------------- 
+bonous part start
+----------------------*/
+.album-container
+{
+    margin-bottom: 46px;
+}
+
+.photo-album{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.album{
+width: 300px;
+height: 200px;
+border: 2px solid olive;
+border-radius: 10px;
+position: relative;
+margin: 15px;
+overflow: hidden;
+}
+.image img{
+
+    width: 100%;
+    border-radius: 10px;
+}
+
+.photo-detail{
+    display: none;
+    position: absolute;
+    width: 300px;
+    top: 0%;
+}
+.album:hover .photo-detail{
+    display: block;
+    background-color: rgba(173, 216, 230, 0.6);
+}
+.photo-detail h3{
+    background-color: black;
+    color: white;
+}
+.album:hover .image{
+    transform: scale(1.2);
+    transition: transform 2s ease-in-out;
+}
+
+
+
+/*------------------------- 
+bonous part end
+----------------------*/
+
+
+
+
+
 
 
 
@@ -138,6 +199,11 @@ logo and copyright part start
 /*------------------------
 logo and copyright part end
 -----------------------*/
+
+
+
+
+
 
 
 
