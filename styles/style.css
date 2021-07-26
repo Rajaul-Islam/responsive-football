@@ -21,6 +21,7 @@ main{
     height: 677px;
     width: 100%;
     display: flex;
+    
     align-items: center;
     justify-content: center;
     
@@ -219,14 +220,17 @@ logo and copyright part end
 
 @media only screen and (max-width:688px){
 
+
+
     /* banner part */
     .banner-container{
         flex-direction: column;
+        
         width: 100vw;   
     }
     .banner-image {
-        width: 329px;
-        height: 259.17px;
+        width: 250px;
+        height: 150px;
         margin-left: 0%;
         margin-top: 40px;
        
@@ -243,18 +247,22 @@ logo and copyright part end
 
     .player-container{
        width: 100vw;
+       display: flex;
+        justify-content: center;
+        
     }
     
     .players{
         grid-template-columns: repeat(1, 1fr);
-        
+
     }
  
 .player{
     flex-direction: column;
 }
-
-
+.photo-album{
+    justify-content: center;
+}
 
 /* for icon and copyright */
 
@@ -298,6 +306,7 @@ logo and copyright part end
 
     .player-container{
         width: 100%;
+        justify-content: center;
     }
     
     .players{
